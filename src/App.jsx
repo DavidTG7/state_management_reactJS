@@ -4,6 +4,7 @@ import { ColorChangeClass } from './ColorChangeClass'
 import { CounterClass } from './CounterClass'
 import { Footer } from './Footer'
 import { InputChangeClass } from './InputChangeClass'
+import { LottieAnimation } from './LottieAnimation'
 import { UseState } from './UseState'
 
 
@@ -12,6 +13,7 @@ export const App = () => {
     <>
       <ClassState name="Class State" />
       <UseState name="Use State" />
+      <LottieAnimation />
       <InputChangeClass />
       <ColorChangeClass />
       <CounterClass />
